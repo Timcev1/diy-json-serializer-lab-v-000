@@ -5,8 +5,9 @@ class ProductSerializer
     serialized_product = '{'
 
     serialized_product += '"id": ' + product.id.to_s + ', '
-    serialized_product += '"title": "' + product.title + '", '
+    serialized_product += '"name": "' + product.name + '", '
     serialized_product += '"description": "' + product.description + '", '
+    
 
     serialized_product += '}'
   end
